@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Asegúrate de tener un archivo CSS para estilos -->
+  <title>Feliz Cumpleaños</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Feliz Cumpleaños</h1>
+    <form onsubmit="return validateLogin()">
+      <input type="text" id="username" placeholder="Ingresa tus Nombres sin espacios" required>
+      <input type="password" id="password" placeholder="Ingresa tu apodo" required>
+      <button type="button" onclick="showHint()">Ver pista</button>
+      <button type="submit">Ingresar</button>
+    </form>
+    <center><img src="https://th.bing.com/th?q=Imagen+De+Un+Solecito&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=es-XL&cc=BO&setlang=es&adlt=moderate&t=1&mw=247" alt="Pista: Solecito" id="hint" class="hint-image"></center>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

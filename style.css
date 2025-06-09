@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Fondo romántico */
+    background-image: url('https://th.bing.com/th/id/R.e480ce5c1b3a3b3ecff694bc5c9a37f8?rik=6hHXYJm1n7dzlA&pid=ImgRaw&r=0'); /* Fondo con corazones (añade tu imagen) */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+
+  h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase; /* Convierte texto a mayúsculas */
+  }
+
+  input::placeholder {
+    text-transform: none; /* Los placeholders no en mayúsculas */
+  }
+
+  button {
+    width: 90%;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ff1493;
+  }
+
+  .hint-image {
+    display: none;
+  }
