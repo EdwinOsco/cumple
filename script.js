@@ -10,7 +10,7 @@ function showHint() {
     const username = document.getElementById('username').value.trim();
     const password = document.getElementById('password').value.trim();
 
-    if (username === 'MIRIAMNAYDE' && password === 'SOLECITO') {
+    if (username === 'miriam nayde' && password === 'solecito') {
       alert('¡Acceso concedido!');
       window.location.href = 'pagina1.html'; // Redirige a la siguiente página
       return false;
